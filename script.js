@@ -18,7 +18,8 @@ const btnHold = document.querySelector('.btn--hold');
 
 // Stylling condition.
 
-let scores, currentScore, activePlayer, playing;
+let scores; let currentScore; let activePlayer; let
+  playing;
 
 const init = function () {
   scores = [0, 0];
@@ -63,8 +64,7 @@ btnRoll.addEventListener('click', () => {
     if (dice !== 1) {
       // add to the current score
       currentScore += dice;
-      document.getElementById(`current--${activePlayer}`).textContent =
-        currentScore;
+      document.getElementById(`current--${activePlayer}`).textContent = currentScore;
     } else {
       // switch to next player.
       swictchPlayer();
@@ -78,8 +78,7 @@ btnHold.addEventListener('click', () => {
     // 1. Add current score to active plyer's score.
     scores[activePlayer] += currentScore;
     // scores[1] = scores[1] + currentScore.
-    document.getElementById(`score--${activePlayer}`).textContent =
-      scores[activePlayer];
+    document.getElementById(`score--${activePlayer}`).textContent = scores[activePlayer];
 
     // 2. Check if player's score is >= 100
     if (scores[activePlayer] >= 100) {
