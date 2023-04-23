@@ -4,7 +4,7 @@
 
  <br/>
 
-  <h3><b>Guess My Number README </b></h3>
+  <h3><b>The Pig Game README </b></h3>
 
 </div>
 
@@ -32,9 +32,9 @@
 <!-- - [❓ FAQ](#faq) -->
 - [📝 License](#license)
 
-# 📰 Guess My Number <a name="about-project"></a>
+# 📰 The Pig Game Web App <a name="about-project"></a>
 
-- Guess My Number is a web application project that allow the users to simply guess a number between 1 and 20, and check if the number is the correct number the computer chose, if not the correct number the computer will say Its too Low if its low to the chosen number, and say Its too high if the number is higher that the chosen number.
+- In this milestone, I build a Web Application Game that allow two users to play by rolling the dice, first to get to 100 wins the game, rolling of 1 will cancel the current score to 0, holding current score will add the current score to current player's score.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -51,10 +51,9 @@ This Project was built with the following technologies
 
 ### Key Features <a name="key-features"></a>
 
-- Play Agin Button
-- Score Checking with correct number button
+- New Game Button
+- Hold Score button
 - High Score Number section
-- Low or High Messaging section
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -62,7 +61,7 @@ This Project was built with the following technologies
 
 Live demo of this project can be access with below link.
 
-- [Live Demo Link](https://abmart0803.github.io/Guess-My-Number/)
+- [Live Demo Link](https://abmart0803.github.io/The-Pig-Game/)
 
 ### Project Walkthrough:
 
@@ -89,7 +88,7 @@ In order to run this project you need to run the following command:
 Clone this repository to your desired folder:
 
 - cd my-folder
-- git clone git@github.com:Abmart0803/Guess-My-Number.git
+- git clone git@github.com:Abmart0803/The-Pig-Game.git
 
 ### Usage
 
@@ -99,7 +98,7 @@ To run the project, execute the following command:
 
 ### Deployment
 
-- with Github pahes here: https://abmart0803.github.io/Guess-My-Number/
+- with Github pahes here: https://abmart0803.github.io/The-Pig-Game/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -125,7 +124,7 @@ The following features will be added in future:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page] (https://github.com/Abmart0803/Guess-My-Number/issues).
+Feel free to check the [issues page] (https://github.com/Abmart0803/The-Pig-Game/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
